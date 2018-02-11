@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
+<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
+<meta charset="utf-8">
+<!--	<style type="text/css">
+
+@import url("style.css");
+h1 { font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	 font-size: 40pt; 
+	 color: darkgreen; }
+p  { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+	 font-size: 14pt; 
+	 color: black; }
+		h2 { font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+	 font-size: 18pt; 
+	 color: rebeccapurple; }
+body {
+	background-image: url();
+	background-color: #FFFFFF;
+}
+
+	</style> -->
+	
+	<!-- Script for bio popup functionality -->
+	<script>
+	$(window).load(function () {
+    $(".start_popup").click(function(){
+       $('.hover_back').show();
+    });
+    $('.hover_back').click(function(){
+        $('.hover_back').hide();
+    });
+    $('.popup_close').click(function(){
+        $('.hover_back').hide();
+    });
+});
+	</script>
+	
+<title>Cthulu Cultists</title>
+</head>
+
+<body>
+<div class="full_header">
+	<div class="header_image"><img src="images/cthuhu.png" width="400" height="400"><!--width="640" height="424" --></img></div>
+	<div class="header"><!--<h1>Cthulu Cultists</h1> --><img src="images/headertext.png"></img></div>
+	
+	<div class="header_text">"In his house at R'lyeh dead Cthulhu waits dreaming."<br></div>
+</div>
+
+<div class="bio_header"><h2>The Cultists</h2></div>
+
+<div class ="bios">
+	<div class="aminda_bio">
+		<!--<p>Aminda Pereira</p><br> -->
+		<a class="start_popup">Aminda Pereira</a><br>		
+		<img src="images/aminda.jpg" width="400" height="275" alt=""/><br>
+		<p>Age: 25<br>
+		   Skill Sets: Drawing, Piano and Procrastinating<br>
+		   Bio: GIMM Student. DnD player and video game enthusiast. 
+		</p>
+	</div>
+	<div class="cody_bio">
+		<!--	<p>Cody Fitch</p><br> -->
+		<a class="start_popup">Cody Fitch</a><br>
+		<img src="images/cody.jpg" width="400" height="275" alt=""/><br>
+		<p>Age: 31<br>
+			Skill Sets: Coding, Project Management, Bo Staff<br>
+			Bio: GIMM major at Boise State. AR/VR geek and baseball nerd.<br></p>
+	</div>
+	<div class="triston_bio">
+		<!--<p>Triston Guest</p><br> -->
+		<a class="start_popup">Triston Guest</a><br>		
+		<img src="images/triston.jpg" width="400" height="275" alt=""/><br>
+		<p>Age: 21<br>
+		   Skill Sets: Research, Coding, Rolling Dice<br>
+		   Bio: A GIMM Student at BSU learning how to code and develop games. Avid lorefreak.<br></p>
+	</div>
+</div>
+
+</body>
+</html>
